@@ -1,0 +1,30 @@
+# Arquivos de estado e backups do Terraform
+*.tfstate
+*.tfstate.*
+.crash
+.terraform/
+.terraform.lock.hcl
+*.backup
+
+# Planos locais
+*.tfplan
+
+# Override de variáveis locais
+terraform.tfvars
+terraform.tfvars.json
+
+# Logs/eventuais
+*.log
+
+# Pastas do VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Linux
+*~
+
+# Arquivos compactados
+*.zip
+*.tar.gz
